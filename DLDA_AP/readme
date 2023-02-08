@@ -1,0 +1,14 @@
+This is the implementation code of a semi-supervised clustering method which combines the deep linear discriminant analysis (DLDA) and affinity propogation (AP).
+
+Publication:
+Xiaohai Zhang, José Luis Ramírez-Mendiola, Mingtao Li, Liejin Guo,
+Electricity consumption pattern analysis beyond traditional clustering methods: A novel self-adapting semi-supervised clustering method and application case study,
+Applied Energy,
+Volume 308,
+2022,
+118335,
+ISSN 0306-2619,
+https://doi.org/10.1016/j.apenergy.2021.118335.
+(https://www.sciencedirect.com/science/article/pii/S0306261921015853)
+Abstract: The fast-paced informatization of power systems across the world provides an unprecedented amount of data, which greatly facilitates their study and offers in turn the possibility to assist in the transition towards truly smart, low-carbon energy systems. In this context, the use of clustering methods for the study of household Electricity Consumption Behaviour (ECB) proves highly beneficial as it facilitates, among other things, more effective deployment of distributed renewable energy assets, development of differentiated tariff policies and load forecasting. However, the similarity metrics used in traditional clustering methods have difficulties in accurately capturing the time variability of electrical load profiles. In order to address this problem, we developed a novel semi-supervised automatic clustering method based on a self-adapting metric learning process. The proposed method is a bespoke application to the analysis of electricity demand load patterns that combines the recently developed Deep Linear Discriminant Analysis algorithm for supervised learning with the data-adaptive Affinity Propagation clustering algorithm (DLDA + AP), and achieves high-quality automatic clustering with an accuracy that is 75 percentage points higher than traditional methods such as k-means, on average. Based on this bespoke method, a unified load dictionary which captures the mainstream daily electricity consumption patterns of 5566 households in London was produced. Through the analysis of the load dictionary and household daily electricity consumption, it’s possible to build a complete ECB profile for the households in the sample dataset. Furthermore, combining the 206 household properties which were found to be strongly correlated with the ECB, this method provides a practical approach to residential customer segmentation for the electricity market.
+Keywords: Household electricity consumption behaviour; Semi-supervised clustering; Metric learning
