@@ -1032,6 +1032,10 @@ if __name__ == '__main__':
     # train the DLDA+AP model using specific (optimized) hyperparameters on the whole training set
     # and test it on test set
     # 利用寻优参数训练所有训练集数据并测试
+    filepath = '../model/hyperopt'
+    if not os.path.exists(filepath):
+        os.makedirs(filepath)
+
     if_train_test = True
     if if_train_test == True:
         print('测试目前最优参数')
